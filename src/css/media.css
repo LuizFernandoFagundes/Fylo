@@ -1,0 +1,38 @@
+@media(max-width:1090px)
+{
+    .container{
+        
+        grid-template-columns: 1fr;
+        
+    }
+    .cardprogress .restante{
+    
+        
+        top: 100px;
+        right: 28%;
+        border-bottom-right-radius: 10px;
+        
+        
+    }
+
+    .cardprogress .restante::after{
+        display: none;
+    }
+}
+
+@media(max-width:800px)
+{
+    body{
+        background-image: url(../img/bg-mobile.png);
+        background-size: cover;
+        background-position: center;
+        
+    }
+    .container{
+        max-width: 80%;
+        grid-template-columns: 1fr;
+    }
+   
+
+  
+}

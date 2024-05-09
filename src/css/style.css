@@ -1,0 +1,166 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--Very-Dark-Blue);
+    background-image: url(../img/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Raleway", sans-serif;
+    
+}
+.container{
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    
+    
+}
+ .principal{
+    width: 100%;
+    border-radius: 10px 100px 10px 10px;
+    background-color: var(--Dark-Blue);
+    padding: 50px 70px;
+}
+ 
+.principal .icones{
+    display: flex;
+    gap: 10px;
+    margin-top:30px;
+}
+
+.principal .icones .icone{
+    width: 50px;
+    height: 50px;
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 10px;
+}
+
+.arquive{
+    background-image: url(../img/icon-document.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.directories{
+    background-image: url(../img/icon-folder.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.upload{
+    background-image: url(../img/icon-upload.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+ .cardprogress{
+   
+   margin-top: 50px;
+   padding: 30px;
+   background-color: var(--Dark-Blue);
+   border-radius: 10px;
+   position: relative;
+}
+ .cardprogress .text{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+}
+
+.container .text span{
+    color: var(--Pale-Blue);
+    font-weight: 700;
+}
+
+.cardprogress .progress{
+    width: 100%;
+    height: 20px;
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 10px;
+    margin-top: 20px;
+    color: var(--Grayish-Blue);
+    position: relative;
+    margin-bottom: 10px;
+}
+
+
+.cardprogress .circulo{
+    content: '';
+    width: 70%;
+    background: linear-gradient(90deg, rgba(255,163,153,1) 0%, rgba(255,77,151,1) 100%);
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    height: 70%;
+    border-radius: 8px;
+}
+
+.cardprogress .progress span::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    top: 0px;
+    right: 0px;
+    width: 14px;
+    height: 14px;
+    border-radius:50%;
+}
+
+.cardprogress .dados{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardprogress .dados .qtdminima, .qtdmaxima{
+    color: var(--Pale-Blue);
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.cardprogress .restante{
+    
+    border-radius: 10px;
+    position: absolute;
+    background-color: white;
+    padding: 15px 20px;
+    top: -50px;
+    right: 35px;
+    border-bottom-right-radius: 0;
+    
+    
+}
+
+.cardprogress .restante::after{
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: inherit;
+    right: 0;
+    top:100%;
+    width: 20px;
+    height: 25px;
+    clip-path: polygon(0 0,100% 0, 100% 100%);
+  
+
+}
+
+.cardprogress .restante .restantetext{
+    color: var(--Very-Dark-Blue);
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+.cardprogress .restante .spangb{
+    color: var(--Grayish-Blue);
+    font-size: 12px;
+    margin-left: 10px;
+} 
