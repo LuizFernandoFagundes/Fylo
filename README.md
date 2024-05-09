@@ -30,8 +30,8 @@ Este componente tem alguns desafios CSS interessantes no design. Se você deseja
 
 ### Links
 
-- URL da solução: [Adicione o URL da solução aqui](https://github.com/LuizFernandoFagundes/social_link)
-- URL do site ativo: [Adicione o URL do site ativo aqui](https://luizfernandofagundes.github.io/social_link/)
+- URL da solução: [Adicione o URL da solução aqui](https://github.com/LuizFernandoFagundes/Fylo)
+- URL do site ativo: [Adicione o URL do site ativo aqui](https://luizfernandofagundes.github.io/Fylo/)
 
 ## Meu processo
 - Primeiro passo, foi criar uma estrutura em HTML, utilizando um container para envolver todo o conteudo.
